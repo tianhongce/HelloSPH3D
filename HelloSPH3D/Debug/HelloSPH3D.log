@@ -1,8 +1,21 @@
-﻿生成启动时间为 2017/6/20 21:58:53。
+﻿生成启动时间为 2017/6/22 21:10:08。
      1>项目“E:\code\visual studio 2013\Projects\HelloSPH3D\HelloSPH3D\HelloSPH3D.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Programs\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
+         D:\Programs\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SPH.cpp
+         SPH.cpp
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(29): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(37): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(43): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(54): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(56): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(58): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(233): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(258): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(263): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(268): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(273): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(278): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\visual studio 2013\projects\hellosph3d\hellosph3d\sph.cpp(283): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
        Link:
          D:\Programs\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\visual studio 2013\Projects\HelloSPH3D\Debug\HelloSPH3D.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\code\visual studio 2013\Projects\HelloSPH3D\Debug\HelloSPH3D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\visual studio 2013\Projects\HelloSPH3D\Debug\HelloSPH3D.lib" /MACHINE:X86 Debug\main.obj
          Debug\Particle.obj
@@ -14,4 +27,4 @@
 
 生成成功。
 
-已用时间 00:00:00.73
+已用时间 00:00:00.85

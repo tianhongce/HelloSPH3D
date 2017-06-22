@@ -6,13 +6,14 @@
 
 class SPH
 {
-private:
+public:
 	float kernel;
 	float cal_w_poly6_value(Vector3 a, Vector3 b);
 	Vector3 cal_w_spiky_s_value(Vector3 a, Vector3 b);
 	float cal_w_visco_ss_value(Vector3 a, Vector3 b);
 
 	vector<Particle*> particles;
+
 	int numParticles;
 
 	float restDensity;
@@ -27,8 +28,12 @@ public:
 	SPH();
 	~SPH();
 
+	void initFluid();
+	vector<Particle*> getParticles();
+
 	void addParticles();
 	void calDensity();
+	void calPressure();
 	void calPressureForce();
 	void calviscosityForce();
 	void calTotalForce();

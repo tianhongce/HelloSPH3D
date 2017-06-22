@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main111()
+int maintest()
 {
 	Vector3 a(0.0f, 0.0f, 0.0f);
 	Vector3 b(1.0f, 0.0f, 3.0f);
@@ -15,5 +15,9 @@ int main111()
 	Vector3 d = c - b;
 	cout << a - d << endl;
 	cout << b-c << endl;
+
+	Vector3 G(0.0f, -10.0f, 0.0f);
+	cout << G*0.125 << endl;
+	
 	return 0;
 }

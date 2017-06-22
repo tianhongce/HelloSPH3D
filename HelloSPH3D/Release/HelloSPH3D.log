@@ -1,0 +1,32 @@
+﻿生成启动时间为 2017/6/22 21:35:45。
+     1>项目“E:\code\visual studio 2013\Projects\HelloSPH3D\HelloSPH3D\HelloSPH3D.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Programs\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SPH.cpp
+         SPH.cpp
+     1>SPH.cpp(29): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>SPH.cpp(37): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>SPH.cpp(43): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>SPH.cpp(54): warning C4305: “初始化”: 从“double”到“float”截断
+     1>SPH.cpp(56): warning C4305: “初始化”: 从“double”到“float”截断
+     1>SPH.cpp(58): warning C4305: “初始化”: 从“double”到“float”截断
+     1>SPH.cpp(233): warning C4305: “参数”: 从“double”到“float”截断
+     1>SPH.cpp(258): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SPH.cpp(263): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SPH.cpp(268): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SPH.cpp(273): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SPH.cpp(278): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SPH.cpp(283): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         D:\Programs\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\visual studio 2013\Projects\HelloSPH3D\Release\HelloSPH3D.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\code\visual studio 2013\Projects\HelloSPH3D\Release\HelloSPH3D.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\visual studio 2013\Projects\HelloSPH3D\Release\HelloSPH3D.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO Release\main.obj
+         Release\Particle.obj
+         Release\SPH.obj
+         Release\test.obj
+         Release\Vector3.obj
+         正在生成代码
+         已完成代码的生成
+         HelloSPH3D.vcxproj -> E:\code\visual studio 2013\Projects\HelloSPH3D\Release\HelloSPH3D.exe
+     1>已完成生成项目“E:\code\visual studio 2013\Projects\HelloSPH3D\HelloSPH3D\HelloSPH3D.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.11
